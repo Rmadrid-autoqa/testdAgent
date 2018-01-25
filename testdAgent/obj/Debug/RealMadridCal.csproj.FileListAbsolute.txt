@@ -1,0 +1,4 @@
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/obj/Debug/RealMadridCal.csprojResolveAssemblyReference.cache
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/obj/Debug/RealMadridCal.csproj.CoreCompileInputs.cache
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/obj/Debug/testdAgent.dll
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/obj/Debug/testdAgent.pdb

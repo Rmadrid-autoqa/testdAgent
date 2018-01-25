@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.9.0\build\net35\NUnit3TestAdapter.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A18EE07C-408E-47FA-941F-23B9A22B9D26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>testdAgent</RootNamespace>
+    <AssemblyName>testdAgent</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.UITest">
+      <HintPath>..\packages\Xamarin.UITest.2.2.2.1684-dev\lib\net45\Xamarin.UITest.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter">
+      <HintPath>..\packages\Microsoft.AppCenter.1.2.0\lib\portable-net45+win8+wpa81+wp8\Microsoft.AppCenter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter.Analytics">
+      <HintPath>..\packages\Microsoft.AppCenter.Analytics.1.2.0\lib\portable-net45+win8+wpa81+wp8\Microsoft.AppCenter.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AppCenter.Crashes">
+      <HintPath>..\packages\Microsoft.AppCenter.Crashes.1.2.0\lib\portable-net45+win8+wpa81+wp8\Microsoft.AppCenter.Crashes.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tools\Strings.cs" />
+    <Compile Include="Tools\Utilities.cs" />
+    <Compile Include="Configuration\AppInitializer.cs" />
+    <Compile Include="Variables\HomeVars.cs" />
+    <Compile Include="Variables\NavigationBarVars.cs" />
+    <Compile Include="Variables\LoginVars.cs" />
+    <Compile Include="Variables\MainMenuVars.cs" />
+    <Compile Include="Variables\SettingsVars.cs" />
+    <Compile Include="Variables\MatchAreaVars.cs" />
+    <Compile Include="Variables\PlaceHoldersVars.cs" />
+    <Compile Include="Variables\MatchDayVars.cs" />
+    <Compile Include="Variables\FinderVars.cs" />
+    <Compile Include="Variables\VirtualStoreVars.cs" />
+    <Compile Include="Variables\VideoVars.cs" />
+    <Compile Include="Variables\StatsVars.cs" />
+    <Compile Include="Variables\SocialVars.cs" />
+    <Compile Include="Variables\ProfileVars.cs" />
+    <Compile Include="Variables\PlayerCardVars.cs" />
+    <Compile Include="Variables\NewsVars.cs" />
+    <Compile Include="Variables\MembersVars.cs" />
+    <Compile Include="Variables\InBoxVars.cs" />
+    <Compile Include="Variables\DecimaVars.cs" />
+    <Compile Include="Variables\CoinsVars.cs" />
+    <Compile Include="Variables\CheckinVars.cs" />
+    <Compile Include="Variables\AdvertisementVars.cs" />
+    <Compile Include="Tests\MainMenuTest.cs" />
+    <Compile Include="Tests\LoginTests.cs" />
+    <Compile Include="Tests\InBoxTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Tests\MembersTests.cs" />
+    <None Include="Tests\MatchDayFootballTests.cs" />
+    <None Include="Tests\MatchDayBasketballTests.cs" />
+    <None Include="Tests\VirtualStoreTests.cs" />
+    <None Include="Tests\UserProfileTests.cs" />
+    <None Include="Tests\UserProfileStatusTests.cs" />
+    <None Include="Tests\UserProfilePlaylistsTests.cs" />
+    <None Include="Tests\UserProfileFriendsTests.cs" />
+    <None Include="Tests\StatsTests.cs" />
+    <None Include="Tests\SocialTests.cs" />
+    <None Include="Tests\SettingsTests.cs" />
+    <None Include="Tests\RecycleBin.cs" />
+    <None Include="Tests\PlayerCardsTests.cs" />
+    <None Include="Tests\PlaceholderTests.cs" />
+    <None Include="Tests\NewsTests.cs" />
+    <None Include="Tests\NavbarTests.cs" />
+    <None Include="Tests\GamesTests.cs" />
+    <None Include="Tests\FinderTests.cs" />
+    <None Include="Tests\DecimaTests.cs" />
+    <None Include="Tests\CheckinTests.cs" />
+    <None Include="Tests\AdvertisementTests.cs" />
+    <None Include="Tests\Tests.cs" />
+    <None Include="Tests\HomeTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Variables\" />
+    <Folder Include="Tools\" />
+    <Folder Include="Tests\" />
+    <Folder Include="Configuration\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

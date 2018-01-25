@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{A18EE07C-408E-47FA-941F-23B9A22B9D26}|Pruebas unitarias" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.RealMadrid__UITest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="testdAgent/Tests/MainMenuTest.cs">
+    <Files>
+      <File FileName="testdAgent/Variables/MainMenuVars.cs" Line="34" Column="48" />
+      <File FileName="testdAgent/Tests/MainMenuTest.cs" Line="9" Column="34" />
+      <File FileName="testdAgent/Tools/Utilities.cs" Line="30" Column="41" />
+      <File FileName="testdAgent/Tests/DemoTest.cs" Line="1" Column="1" />
+      <File FileName="testdAgent/Tests/OutOfScope.cs" Line="1" Column="1" />
+      <File FileName="testdAgent/Configuration/AppInitializer.cs" Line="32" Column="19" />
+      <File FileName="testdAgent/Configuration/NewClassTemplate.cs" Line="9" Column="28" />
+      <File FileName="testdAgent/Tests/LoginTests.cs" Line="10" Column="34" />
+      <File FileName="testdAgent/Tests/InBoxTests.cs" Line="12" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

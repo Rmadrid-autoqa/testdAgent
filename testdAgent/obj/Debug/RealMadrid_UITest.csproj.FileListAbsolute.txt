@@ -11,8 +11,9 @@
 /Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Mono.Cecil.Rocks.dll
 /Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/testdAgent.dll
 /Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/testdAgent.pdb
-/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/nunit.framework.dll
-/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/nunit.framework.xml
 /Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Xamarin.UITest.dll
 /Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Xamarin.UITest.xml
 /Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Microsoft.AppCenter.dll
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Microsoft.AppCenter.Analytics.dll
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Microsoft.AppCenter.Crashes.dll
+/Users/ustglobaltcpsi/Projects/testdAgent/testdAgent/bin/Debug/Microsoft.Build.Framework.dll

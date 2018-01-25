@@ -29,9 +29,12 @@
     <Reference Include="System" />
     <Reference Include="mscorlib" />
     <Reference Include="System.Core" />
-    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Framework">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Xamarin.UITest">
       <HintPath>..\packages\Xamarin.UITest.2.2.2.1684-dev\lib\net45\Xamarin.UITest.dll</HintPath>

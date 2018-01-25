@@ -3,6 +3,9 @@ using System.IO;
 using System.Linq;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 
 
